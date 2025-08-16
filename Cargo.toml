@@ -1,0 +1,9 @@
+[package]
+authors = ["Owen Avery"]
+name = "feature_scan"
+version = "0.0.0"
+edition = "2018"
+
+[dependencies]
+rustc_feature = { path = "../compiler/rustc_feature" }
+rustc_span = { path = "../compiler/rustc_span" }
