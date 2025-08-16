@@ -94,5 +94,9 @@ pub fn main() {
         for feat in rustc_feature::REMOVED_FEATURES {
             process_feat(feat);
         }
+        println!();
+        for feat in rustc_feature::STABLE_REMOVED_FEATURES {
+            process_feat(feat);
+        }
     });
 }
